@@ -23,8 +23,8 @@ pushd "$TMPDIR" || exit
 # XRDP
 #
 (
-	git clone https://aur.archlinux.org/xrdp.git
-	cd xrdp || exit
+	git clone https://aur.archlinux.org/xrdp-git.git
+	cd xrdp-git || exit
 	makepkg -sri --noconfirm
 )
 ###############################################################################
